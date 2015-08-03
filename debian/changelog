@@ -1,4 +1,4 @@
-kdeclarative (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kdeclarative (5.12.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -10,7 +10,7 @@ kdeclarative (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
     - Add new symbols, mark as optional those sho doesn't show up
       after rebuilding with GCC 4
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:02:52 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:27:13 +0200
 
 kdeclarative (5.11.0-1) unstable; urgency=medium
 
