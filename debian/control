@@ -125,6 +125,7 @@ Architecture: any
 Multi-arch: same
 Depends: libkf5declarative5 (>= ${source:Version}),
          qml-module-qtquick-controls,
+         qml-module-qtquick-dialogs,
          qml-module-qtquick-layouts,
          qml-module-qtquick2,
          ${misc:Depends},
