@@ -1,3 +1,21 @@
+kdeclarative (5.13.0-0ubuntu4) wily; urgency=medium
+
+  * Add qml-module-qtquick2 to test-deps as one of our tests requires QtQuick.
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Thu, 13 Aug 2015 17:19:04 +0100
+
+kdeclarative (5.13.0-0ubuntu3) wily; urgency=medium
+
+  * Oh noes, I typoed "c++11", sorry.
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Thu, 13 Aug 2015 14:58:05 +0100
+
+kdeclarative (5.13.0-0ubuntu2) wily; urgency=medium
+
+  * acc test: Pass -std=c++11 to avoid failure relating to std::unique_ptr.
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Thu, 13 Aug 2015 13:10:06 +0100
+
 kdeclarative (5.13.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release

@@ -15,7 +15,7 @@
 </libs>
 
 <gcc_options>
-    -fPIC
+    -fPIC -std=c++11
 </gcc_options>
 
 </descriptor>
