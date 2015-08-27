@@ -1,5 +1,5 @@
 usr/lib/*/qt5/qml/org/kde/kquickcontrols/ColorButton.qml
 usr/lib/*/qt5/qml/org/kde/kquickcontrols/KeySequenceItem.qml
 usr/lib/*/qt5/qml/org/kde/kquickcontrols/qmldir
-usr/lib/*/qt5/qml/org/kde/private/kquickcontrols/kquickcontrolsprivateplugin.so
+usr/lib/*/qt5/qml/org/kde/private/kquickcontrols/libkquickcontrolsprivateplugin.so
 usr/lib/*/qt5/qml/org/kde/private/kquickcontrols/qmldir
