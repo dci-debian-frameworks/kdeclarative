@@ -1,4 +1,4 @@
-kdeclarative (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
+kdeclarative (5.15.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * Vivid backport
@@ -6,7 +6,7 @@ kdeclarative (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * new upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Oct 2015 19:38:20 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:45:49 +0100
 
 kdeclarative (5.14.0-0ubuntu1) wily; urgency=medium
 
