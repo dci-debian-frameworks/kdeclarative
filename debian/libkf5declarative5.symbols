@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0+git20150922.0224 amd64 i386
+# SymbolsHelper-Confirmed: 5.15.0+git20151103.1738+15.10 amd64 i386
 libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative12KDeclarative10initializeEv@Base 4.96.0
  _ZN12KDeclarative12KDeclarative13setupBindingsEv@Base 4.96.0
@@ -15,6 +15,7 @@ libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative12KDeclarativeD2Ev@Base 4.96.0
  _ZN12KDeclarative17ConfigPropertyMap11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN12KDeclarative17ConfigPropertyMap11qt_metacastEPKc@Base 4.96.0
+ _ZN12KDeclarative17ConfigPropertyMap11updateValueERK7QStringRK8QVariant@Base 5.15.0+git20151103.1738+15.10
  _ZN12KDeclarative17ConfigPropertyMap16staticMetaObjectE@Base 4.96.0
  _ZN12KDeclarative17ConfigPropertyMapC1EP19KCoreConfigSkeletonP7QObject@Base 4.96.0
  _ZN12KDeclarative17ConfigPropertyMapC2EP19KCoreConfigSkeletonP7QObject@Base 4.96.0
