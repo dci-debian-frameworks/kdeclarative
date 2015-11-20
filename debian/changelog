@@ -1,3 +1,9 @@
+kdeclarative (5.16.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Fri, 20 Nov 2015 11:52:53 +0000
+
 kdeclarative (5.15.0-0ubuntu2) xenial; urgency=medium
 
   * Fix autopackagetests by adding allow-stderr to the requirements.
