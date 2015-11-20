@@ -38,6 +38,7 @@ Package: libkf5declarative-dev
 Section: libdevel
 Architecture: any
 Depends: kio-dev (>= 5.16.0~),
+         libkf5calendarevents5 (= ${binary:Version}),
          libkf5declarative5 (= ${binary:Version}),
          libkf5package-dev (>= 5.16.0~),
          libkf5quickaddons5 (= ${binary:Version}),
@@ -188,3 +189,11 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
 Description: provides integration of QML and KDE frameworks
  Framework providing optimized image texture caching.
+
+Package: libkf5calendarevents5
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
+Description: provides integration of QML and KDE frameworks
+ Framework providing integration of QML and other KDE frameworks such
+ as making i18n available and using kio.
