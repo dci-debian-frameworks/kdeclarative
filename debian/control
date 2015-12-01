@@ -36,16 +36,10 @@ Description: commandline tool for launching kpackage QML application
 Package: libkf5declarative-dev
 Section: libdevel
 Architecture: any
-<<<<<<< HEAD
-Depends: kio-dev (>= 5.15.0~),
+Depends: kio-dev (>= 5.16.0~),
          libkf5calendarevents5 (= ${binary:Version}),
          libkf5declarative5 (= ${binary:Version}),
-         libkf5package-dev (>= 5.15.0~),
-=======
-Depends: kio-dev (>= 5.16.0~),
-         libkf5declarative5 (= ${binary:Version}),
          libkf5package-dev (>= 5.16.0~),
->>>>>>> master
          libkf5quickaddons5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          qtdeclarative5-dev (>= 5.4),

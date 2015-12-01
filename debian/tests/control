@@ -1,14 +1,8 @@
 Tests: testsuite
-<<<<<<< HEAD
-Depends: @builddeps@, build-essential,
+Depends: @, @builddeps@, build-essential,
          xvfb, xauth, dbus-x11, openbox,
          qml-module-qtquick2
-Restrictions: rw-build-tree
-=======
-Depends: @, @builddeps@, build-essential,
-         xvfb, xauth, dbus-x11, openbox
 Restrictions: build-needed
->>>>>>> master
 
 Tests: acc
 Depends: @, dh-acc, exuberant-ctags
