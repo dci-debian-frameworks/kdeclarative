@@ -169,18 +169,6 @@ Description: provides integration of QML and KDE Frameworks - kio
  .
  This package contains the QML files used by libkf5declarative.
 
-Package: libkf5declarative5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5declarative5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kdeclarative
- Framework providing integration of QML and other KDE frameworks such as making
- i18n available and using kio.
- .
- Contains debug symbols for kdeclarative.
-
 Package: libkf5quickaddons5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
