@@ -1,6 +1,6 @@
-kdeclarative (5.20.0-1~2.gbp458376) UNRELEASED; urgency=medium
+kdeclarative (5.20.0-1~3.gbp9e736b) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @458376da1ae986dc92ed636503902ab2a6355f35 **
+  ** SNAPSHOT build @9e736bb3ab840d581777eeba9ca57dbfa6ccaca9 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,8 +14,9 @@ kdeclarative (5.20.0-1~2.gbp458376) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Update acc test script
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:14:18 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:14:32 +0200
 
 kdeclarative (5.19.0-1) experimental; urgency=medium
 
