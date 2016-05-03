@@ -5,18 +5,18 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.18.0~),
-               kio-dev (>= 5.18.0~),
+               extra-cmake-modules (>= 5.19.0~),
+               kio-dev (>= 5.19.0~),
                libepoxy-dev,
-               libkf5config-dev (>= 5.18.0~),
-               libkf5globalaccel-dev (>= 5.18.0~),
-               libkf5guiaddons-dev (>= 5.18.0~),
-               libkf5i18n-dev (>= 5.18.0~),
-               libkf5iconthemes-dev (>= 5.18.0~),
+               libkf5config-dev (>= 5.19.0~),
+               libkf5globalaccel-dev (>= 5.19.0~),
+               libkf5guiaddons-dev (>= 5.19.0~),
+               libkf5i18n-dev (>= 5.19.0~),
+               libkf5iconthemes-dev (>= 5.19.0~),
                libkf5itemviews-dev (>= 5.18.0~),
-               libkf5package-dev (>= 5.18.0~),
-               libkf5widgetsaddons-dev (>= 5.18.0~),
-               libkf5windowsystem-dev (>= 5.18.0~),
+               libkf5package-dev (>= 5.19.0~),
+               libkf5widgetsaddons-dev (>= 5.19.0~),
+               libkf5windowsystem-dev (>= 5.19.0~),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.4),
@@ -24,8 +24,8 @@ Build-Depends: cmake (>= 2.8.12),
                qtscript5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kdeclarative
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kdeclarative.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kdeclarative.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kdeclarative.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kdeclarative.git
 
 Package: kpackagelauncherqml
 Architecture: any
@@ -36,10 +36,10 @@ Description: commandline tool for launching kpackage QML application
 Package: libkf5declarative-dev
 Section: libdevel
 Architecture: any
-Depends: kio-dev (>= 5.16.0~),
+Depends: kio-dev (>= 5.19.0~),
          libkf5calendarevents5 (= ${binary:Version}),
          libkf5declarative5 (= ${binary:Version}),
-         libkf5package-dev (>= 5.16.0~),
+         libkf5package-dev (>= 5.19.0~),
          libkf5quickaddons5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          qtdeclarative5-dev (>= 5.4),
@@ -81,9 +81,9 @@ Depends: qml-module-org-kde-draganddrop,
          ${shlibs:Depends}
 Section: oldlibs
 Priority: extra
-Description: transitional package for qtdeclarative5-kf5declarative
- This is a transitional dummy package for qml-module-serviceframework
- which can be safely removed.
+Description: transitional package for new QML module packages
+ This is a transitional dummy package for the new QML module packages
+ provided by kf5declarative, which can be safely removed.
 
 Package: qml-module-org-kde-draganddrop
 Architecture: any
@@ -170,29 +170,17 @@ Description: provides integration of QML and KDE Frameworks - kio
  .
  This package contains the QML files used by libkf5declarative.
 
-Package: libkf5declarative5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5declarative5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kdeclarative
- Framework providing integration of QML and other KDE frameworks such as making
- i18n available and using kio.
- .
- Contains debug symbols for kdeclarative.
-
 Package: libkf5quickaddons5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Description: provides integration of QML and KDE frameworks
+Description: provides integration of QML and KDE frameworks -- quickaddons
  Framework providing optimized image texture caching.
 
 Package: libkf5calendarevents5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Description: provides integration of QML and KDE frameworks
+Description: provides integration of QML and KDE frameworks -- calendarevents
  Framework providing integration of QML and other KDE frameworks such
- as making i18n available and using kio.
+ as making i18n available and using kio
