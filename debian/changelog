@@ -1,6 +1,6 @@
-kdeclarative (5.21.0-1~1.gbp89078a) UNRELEASED; urgency=medium
+kdeclarative (5.22.0-1~1.gbpb5d6a0) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @89078a59b70c12db801c789111587e75e030cb31 **
+  ** SNAPSHOT build @b5d6a0aaae6108522b4599c88dba9fbd023a69c2 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -10,6 +10,8 @@ kdeclarative (5.21.0-1~1.gbp89078a) UNRELEASED; urgency=medium
   * Drop qt5-qmltooling-plugins build dependency
 
   [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
@@ -22,7 +24,7 @@ kdeclarative (5.21.0-1~1.gbp89078a) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 10:14:10 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 16:14:10 +0200
 
 kdeclarative (5.19.0-1) experimental; urgency=medium
 
