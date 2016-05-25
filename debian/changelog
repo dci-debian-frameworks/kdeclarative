@@ -1,30 +1,18 @@
-kdeclarative (5.22.0-1~1.gbpb5d6a0) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @b5d6a0aaae6108522b4599c88dba9fbd023a69c2 **
+kdeclarative (5.22.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Drop qt5-qmltooling-plugins build dependency
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
-  * Bump Standards-Version to 3.9.8
-  * Update build-deps and deps with the info from cmake
-
-  [ Maximiliano Curia ]
   * Update acc test script
-  * UNRELEASED
   * uscan no longer supports more than one main upstream tarball being listed
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
 
-  [ Maximiliano Curia ]
-
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 16:14:10 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 May 2016 11:54:32 +0200
 
 kdeclarative (5.19.0-1) experimental; urgency=medium
 
