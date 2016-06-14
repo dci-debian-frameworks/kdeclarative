@@ -19,9 +19,9 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5windowsystem-dev (>= 5.23.0~),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4.0~),
-               qtdeclarative5-dev (>= 5.4.0~),
-               qtscript5-dev (>= 5.4)
+               qtbase5-dev (>= 5.6.0~),
+               qtdeclarative5-dev (>= 5.6.0~),
+               qtscript5-dev (>= 5.6)
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/kdeclarative
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kdeclarative.git
@@ -41,8 +41,8 @@ Depends: kio-dev (>= 5.23.0~),
          libkf5declarative5 (= ${binary:Version}),
          libkf5package-dev (>= 5.23.0~),
          libkf5quickaddons5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.4.0~),
-         qtdeclarative5-dev (>= 5.4.0~),
+         qtbase5-dev (>= 5.6.0~),
+         qtdeclarative5-dev (>= 5.6.0~),
          ${misc:Depends}
 Description: development files for kdeclarative
  Framework providing integration of QML and other KDE frameworks such
