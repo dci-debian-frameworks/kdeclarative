@@ -1,3 +1,11 @@
+kdeclarative (5.24.0-1~1.gbp0803e5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @0803e5ccf2490582893035dc53659946bd3f19f6 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 16:14:18 +0200
+
 kdeclarative (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
