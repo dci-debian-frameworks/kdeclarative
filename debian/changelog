@@ -1,3 +1,12 @@
+kdeclarative (5.27.0-1~1.gbpde0acc) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @de0acc12d55fc2a135313824213f808d17c7a302 **
+
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.26.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 16:14:53 +0200
+
 kdeclarative (5.26.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
