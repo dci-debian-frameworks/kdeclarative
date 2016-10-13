@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.16.0 amd64
+# SymbolsHelper-Confirmed: 5.25.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 mips mips64el mipsel powerpc ppc64el s390x x32
 libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZN12KDeclarative12KDeclarative10initializeEv@Base 4.96.0
  _ZN12KDeclarative12KDeclarative13setupBindingsEv@Base 4.96.0
@@ -67,8 +67,6 @@ libKF5Declarative.so.5 libkf5declarative5 #MINVER#
  _ZNK12KDeclarative9QmlObject6sourceEv@Base 4.96.0
  _ZNK12KDeclarative9QmlObject6statusEv@Base 5.12.0
  _ZNK12KDeclarative9QmlObject7packageEv@Base 5.7.0+git20150305.0804+15.04
- (optional=templinst|arch=armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 5.12.0
- (optional=templinst|arch=!armel)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 5.12.0
  (optional=templinst|arch=armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 5.12.0
  (optional=templinst|arch=armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE10_M_disposeEv@Base 5.12.0
  (optional=templinst|arch=armel)_ZNSt23_Sp_counted_ptr_inplaceI10QQmlEngineSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE14_M_get_deleterERKSt9type_info@Base 5.12.0
