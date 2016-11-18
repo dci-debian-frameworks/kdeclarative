@@ -61,9 +61,9 @@ Multi-Arch: same
 Description: provides integration of QML and KDE frameworks
  Framework providing integration of QML and other KDE frameworks such
  as making i18n available and using kio.
-Breaks: libkf5plasma5 (<< 5.27),
-        libkf5plasmaquick5 (<< 5.27),
-        plasma-framework (<< 5.27)
+Breaks: libkf5plasma5 (<< 5.28),
+        libkf5plasmaquick5 (<< 5.28),
+        plasma-framework (<< 5.28)
 
 Package: libkf5declarative-data
 Architecture: all
@@ -133,7 +133,7 @@ Depends: libkf5declarative5 (>= ${source:Version}),
          qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: plasma-framework (<< 5.27),
+Breaks: plasma-framework (<< 5.28),
         qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
         qtdeclarative5-kf5declarative-5.0
 Replaces: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
@@ -148,7 +148,7 @@ Multi-arch: same
 Depends: libkf5declarative5 (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: plasma-framework (<< 5.27),
+Breaks: plasma-framework (<< 5.28),
         qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
         qtdeclarative5-kf5declarative-5.0
 Replaces: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
@@ -181,9 +181,9 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
 Description: provides integration of QML and KDE frameworks -- quickaddons
  Framework providing optimized image texture caching.
-Breaks: libkf5kcmutils5 (<< 5.27),
-        libkf5plasmaquick5 (<< 5.27),
-        plasma-framework (<< 5.27)
+Breaks: libkf5kcmutils5 (<< 5.28),
+        libkf5plasmaquick5 (<< 5.28),
+        plasma-framework (<< 5.28)
 
 Package: libkf5calendarevents5
 Architecture: any
@@ -192,4 +192,4 @@ Multi-Arch: same
 Description: provides integration of QML and KDE frameworks -- calendarevents
  Framework providing integration of QML and other KDE frameworks such
  as making i18n available and using kio
-Breaks: plasma-framework (<< 5.27)
+Breaks: plasma-framework (<< 5.28)
