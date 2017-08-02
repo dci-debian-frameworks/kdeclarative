@@ -49,6 +49,7 @@ Depends: kio-dev (>= 5.26.0~),
          qtbase5-dev (>= 5.6.0~),
          qtdeclarative5-dev (>= 5.6.0~),
          ${misc:Depends}
+Recommends: libkf5declarative-doc (= ${source:Version})
 Description: development files for kdeclarative
  Framework providing integration of QML and other KDE frameworks such
  as making i18n available and using kio.
@@ -57,29 +58,41 @@ Description: development files for kdeclarative
 
 Package: libkf5declarative5
 Architecture: any
+Multi-Arch: same
 Depends: libkf5declarative-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: kpackagelauncherqml
-Multi-Arch: same
-Description: provides integration of QML and KDE frameworks
- Framework providing integration of QML and other KDE frameworks such
- as making i18n available and using kio.
 Breaks: libkf5plasma5 (<< 5.28),
         libkf5plasmaquick5 (<< 5.36),
         plasma-framework (<< 5.36)
+Recommends: kpackagelauncherqml
+Description: provides integration of QML and KDE frameworks
+ Framework providing integration of QML and other KDE frameworks such
+ as making i18n available and using kio.
 
 Package: libkf5declarative-data
 Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: provides integration of QML and KDE frameworks
  Framework providing integration of QML and other KDE frameworks such
  as making i18n available and using kio.
  .
  This package contains the translation files.
 
+Package: libkf5declarative-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: provides integration of QML and KDE frameworks (documentation)
+ Framework providing integration of QML and other KDE frameworks such
+ as making i18n available and using kio.
+ .
+ This package contains the qch documentation files.
+
 Package: qtdeclarative5-kf5declarative
+Section: oldlibs
+Priority: extra
 Architecture: all
 Depends: qml-module-org-kde-draganddrop,
          qml-module-org-kde-kcoreaddons,
@@ -87,8 +100,6 @@ Depends: qml-module-org-kde-draganddrop,
          qml-module-org-kde-kquickcontrolsaddons,
          ${misc:Depends},
          ${shlibs:Depends}
-Section: oldlibs
-Priority: extra
 Description: transitional package for new QML module packages
  This is a transitional dummy package for the new QML module packages
  provided by kf5declarative, which can be safely removed.
@@ -194,8 +205,8 @@ Breaks: plasma-framework (<< 5.36)
 
 Package: libkf5quickaddons5
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: provides integration of QML and KDE frameworks -- quickaddons
  Framework providing optimized image texture caching.
 Breaks: libkf5kcmutils5 (<< 5.36),
@@ -204,9 +215,9 @@ Breaks: libkf5kcmutils5 (<< 5.36),
 
 Package: libkf5calendarevents5
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: plasma-framework (<< 5.36)
 Description: provides integration of QML and KDE frameworks -- calendarevents
  Framework providing integration of QML and other KDE frameworks such
  as making i18n available and using kio
-Breaks: plasma-framework (<< 5.36)
