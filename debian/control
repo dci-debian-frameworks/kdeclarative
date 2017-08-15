@@ -211,7 +211,7 @@ Description: provides integration of QML and KDE frameworks - kwindowsystem
 
 Package: qtdeclarative5-kf5declarative
 Section: oldlibs
-Priority: extra
+Priority: optional
 Architecture: all
 Depends: qml-module-org-kde-draganddrop,
          qml-module-org-kde-kcoreaddons,
