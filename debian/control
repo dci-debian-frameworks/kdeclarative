@@ -84,6 +84,7 @@ Description: provides integration of QML and KDE frameworks (documentation)
  as making i18n available and using kio.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5declarative5
 Architecture: any
