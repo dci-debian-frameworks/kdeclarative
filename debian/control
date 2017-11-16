@@ -85,7 +85,7 @@ Depends: qml-module-org-kde-draganddrop,
          ${misc:Depends},
          ${shlibs:Depends}
 Section: oldlibs
-Priority: extra
+Priority: optional
 Description: transitional package for new QML module packages
  This is a transitional dummy package for the new QML module packages
  provided by kf5declarative, which can be safely removed.
