@@ -8,7 +8,6 @@ Build-Depends: cmake (>= 3.0~),
                doxygen,
                extra-cmake-modules (>= 5.41.0~),
                graphviz,
-               kio-dev (>= 5.26.0~),
                libepoxy-dev,
                libkf5config-dev (>= 5.41.0~),
                libkf5globalaccel-dev (>= 5.41.0~),
@@ -60,9 +59,9 @@ Description: provides integration of QML and KDE frameworks
 Package: libkf5declarative-dev
 Section: libdevel
 Architecture: any
-Depends: kio-dev (>= 5.26.0~),
-         libkf5calendarevents5 (= ${binary:Version}),
+Depends: libkf5calendarevents5 (= ${binary:Version}),
          libkf5declarative5 (= ${binary:Version}),
+         libkf5kio-dev (>= 5.26.0~),
          libkf5package-dev (>= 5.41.0~),
          libkf5quickaddons5 (= ${binary:Version}),
          qtbase5-dev (>= 5.7.0~),
