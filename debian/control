@@ -123,6 +123,19 @@ Replaces: qtdeclarative5-kf5declarative (<< 5.0.0-0ubuntu1),
 Description: provides integration of QML and KDE frameworks - draganddrop
  Provides QML draganddrop functionality.
 
+Package: qml-module-org-kde-kcm
+Architecture: any
+Multi-arch: same
+Depends: libkf5declarative5 (>= ${source:Version}),
+         qml-module-org-kde-kirigami2,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: provides integration of QML and KDE Frameworks - kcm
+ This import contains KDE extras that are visually similar to Qt Quick
+ Controls.
+ .
+ This package contains the QML files used by libkf5declarative.
+
 Package: qml-module-org-kde-kconfig
 Architecture: any
 Multi-arch: same
